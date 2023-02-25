@@ -19,11 +19,12 @@ function App() {
 			<aside>
 				<title>Summary</title>
 				{TestResults.map((results) => {
+					const categoryLowerCase = results.category.toLowerCase();
 					return (
 						<Skill
 							key={results.category}
 							category={results.category}
-							icon={results.icon}
+							icon={categoryLowerCase}
 							score={results.score}
 						/>
 					);
