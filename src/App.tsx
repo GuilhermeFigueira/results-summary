@@ -1,3 +1,4 @@
+import Skill from "./Skill";
 import TestResults from "./data.json";
 
 function App() {
