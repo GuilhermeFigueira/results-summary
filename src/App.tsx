@@ -3,41 +3,65 @@ import TestResults from "./data.json";
 
 function App() {
 	return (
-		<div className="h-screen w-screen flex">
-			<main className="mx-auto flex flex-col sm:flex-row shadow-2xl rounded-3xl my-52 transition-all h-fit">
-				<article className="bg-gradient-to-b from-blue-slate to-blue-royal text-center  rounded-3xl max-w-[375px] p-6">
-					<h1 className="text-blue-lavender">Your Result</h1>
-					<div className="rounded-full bg-gradient-to-b from-blue-violet via-blue-persian to-transparent  w-fit py-6 px-8  text-white font-bold items-center m-auto flex flex-col gap-1 ">
-						<h2 className="text-5xl">76</h2>
+		<div className="h-screen flex">
+			<main className="m-auto flex flex-col sm:flex-row shadow-2xl rounded-3xl  transition-all">
+				<article className="items-center flex flex-col gap-8 bg-gradient-to-b from-blue-slate to-blue-royal text-center  rounded-3xl w-full sm:max-w-[335px] py-8">
+					<h1 className="text-blue-lavender text-xl">Your Result</h1>
+					<div className="rounded-full bg-gradient-to-b from-blue-violet via-blue-persian to-transparent  w-fit py-12 px-14  text-white font-bold items-center m-auto flex flex-col gap-1 ">
+						<h2 className="text-7xl">76</h2>
 						<span className="text-blue-lavender opacity-70">
 							of 100
 						</span>
 					</div>
-					<h3 className="text-white font-bold text-xl">Great</h3>
-					<footer>
-						You scored higher than 65% of the people who have taken
-						these tests.
-					</footer>
+					<div className="flex flex-col gap-4 py-4 w-3/4">
+						<h3 className="text-white font-bold text-3xl">Great</h3>
+						<footer className="text-blue-lavender">
+							You scored higher than 65% of the people who have
+							taken these tests.
+						</footer>
+					</div>
 				</article>
-				<aside className="rounded-3xl max-w-[375px] h-">
-					<title>Summary</title>
-					{TestResults.map((results) => {
-						const categoryLowerCase =
-							results.category.toLowerCase();
-						return (
-							<Skill
-								key={results.category}
-								category={results.category}
-								icon={categoryLowerCase}
-								score={results.score}
-							/>
-						);
-					})}
-
-					<button>Continue</button>
+				<aside className="flex flex-col gap-6 rounded-3xl sm:max-w-[335px] w-full p-10">
+					<h1 className="text-xl font-bold text-blue-dark ">
+						Summary
+					</h1>
+					<div className="flex flex-col gap-5">
+						{TestResults.map((results) => {
+							const categoryLowerCase =
+								results.category.toLowerCase();
+							let color = "";
+							switch (results.category) {
+								case "Reaction":
+									color = "red";
+									break;
+								case "Memory":
+									color = "yellow";
+									break;
+								case "Verbal":
+									color = "green";
+									break;
+								case "Visual":
+									color = "blue-cobalt";
+									break;
+							}
+							return (
+								<Skill
+									key={results.category}
+									category={results.category}
+									icon={categoryLowerCase}
+									score={results.score}
+									color={color}
+								/>
+							);
+						})}
+					</div>
 
 					<div>
-						<div className="text-center ">
+						<button className="bg-blue-dark text-white hover:bg-gradient-to-b from-blue-slate to-blue-royal transition-colors w-full rounded-full p-3 mt-4">
+							Continue
+						</button>
+
+						<div className="text-center pt-4">
 							Challenge by{" "}
 							<a
 								href="https://www.frontendmentor.io?ref=challenge"
