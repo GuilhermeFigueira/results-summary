@@ -59,7 +59,7 @@ Essa é uma solução do [Desafio do Resumo de Resultados Frontend Mentor](https
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [Meu Processo](#processo)
-  - [Built with](#feito-com)
+  - [Feito com](#feito-com)
 - [Autor](#autor)
 
 ## Visão Geral
