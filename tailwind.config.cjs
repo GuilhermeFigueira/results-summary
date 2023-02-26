@@ -2,7 +2,7 @@
 module.exports = {
 	content: ["./src/**/*.tsx", "./index.html"],
 	theme: {
-		fontFamily: { sans: ["Hanken_Grotesk", "sans-serif"] },
+		fontFamily: { sans: ["Hanken Grotesk", "sans-serif"] },
 		extend: {
 			colors: {
 				white: "hsl(0, 0%, 100%)",
@@ -16,7 +16,7 @@ module.exports = {
 					slate: "hsl(252, 100%, 67%)",
 					royal: "hsl(241, 81%, 54%)",
 					violet: "hsla(256, 72%, 46%, 1)",
-					persian: "hsla(241, 72%, 46%, 0)",
+					persian: "hsla(241, 72%, 46%, 1)",
 					pale: "hsl(221, 100%, 96%)",
 					dark: "hsl(224, 30%, 27%)",
 					lavender: "hsl(241, 100%, 89%)",
