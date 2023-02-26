@@ -24,7 +24,7 @@ This is a solution to the [Resulst Summary on Frontend Mentor](https://www.front
 
 ### Screenshot
 
-<img width="600"  src="https://user-images.githubusercontent.com/95925774/221421766-feef2dd6-5a34-44c3-8750-fae7e83aa357.png">
+<img width="550"  src="https://user-images.githubusercontent.com/95925774/221421766-feef2dd6-5a34-44c3-8750-fae7e83aa357.png">
 <img width="100px"  src="https://user-images.githubusercontent.com/95925774/221421838-0e598229-5e50-4785-aabf-91f8650e4e1b.png">
 
 
