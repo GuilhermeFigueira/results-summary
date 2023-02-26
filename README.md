@@ -8,7 +8,7 @@
 
 # Frontend Mentor - Results Summary
 
-This is a solution to the [Resulst Summary on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Result Summary on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -17,7 +17,6 @@ This is a solution to the [Resulst Summary on Frontend Mentor](https://www.front
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-
 - [Author](#author)
 
 ## Overview
@@ -27,12 +26,10 @@ This is a solution to the [Resulst Summary on Frontend Mentor](https://www.front
 <img width="550"  src="https://user-images.githubusercontent.com/95925774/221421766-feef2dd6-5a34-44c3-8750-fae7e83aa357.png">
 <img width="100px"  src="https://user-images.githubusercontent.com/95925774/221421838-0e598229-5e50-4785-aabf-91f8650e4e1b.png">
 
-
-
 ### Links
 
-- Solution URL: [FrontEndMentor Solution URL](https://www.frontendmentor.io/solutions/tailwindcss-and-react-qr-code-component-_3XhaNB8Xp)
-- Live Site URL: [Vercel Live Solution Website](https://qr-code-component-guilhermefigueira.vercel.app)
+- Solution URL: <a href="https://www.frontendmentor.io/solutions/responsive-results-summary-with-react-and-tailwindcss-wQYKkAb-9k" target="_blank">FrontEndMentor Solution URL</a>
+- Live Site URL: <a href="https://results-summary-guilhermefigueira.vercel.app" target="_blank">Vercel Live Solution Website</a>
 
 ## My process
 
@@ -52,40 +49,40 @@ This is a solution to the [Resulst Summary on Frontend Mentor](https://www.front
 
 ## Português
 
-# Frontend Mentor - Solução do componente de QR Code 
+# Frontend Mentor - Solução do componente de QR Code
 
-Essa é uma solução do [Desafio do Componente de QR Code Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Os desafios do Frontend Mentor ajudam a aprimorar suas habilidades criando projetos realistas.
+Essa é uma solução do [Desafio do Resumo de Resultados Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Os desafios do Frontend Mentor ajudam a aprimorar suas habilidades criando projetos realistas.
 
 ## Conteúdos
 
-- [Visão geral](#visãogeral)
+- [Visão geral](#visão-geral)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-
-- [Author](#author)
+- [Meu Processo](#processo)
+  - [Built with](#feito-com)
+- [Autor](#autor)
 
 ## Visão Geral
 
 ### Screenshot
 
-![image](https://user-images.githubusercontent.com/95925774/221325415-e7482aea-2077-4b58-8224-68db682d0189.png)
+<img width="550"  src="https://user-images.githubusercontent.com/95925774/221421766-feef2dd6-5a34-44c3-8750-fae7e83aa357.png">
+<img width="100px"  src="https://user-images.githubusercontent.com/95925774/221421838-0e598229-5e50-4785-aabf-91f8650e4e1b.png">
 
 ### Links
 
-- URL da solução no FrontendMentor: [FrontEndMentor Solution URL](https://www.frontendmentor.io/solutions/tailwindcss-and-react-qr-code-component-_3XhaNB8Xp)
-- Solução no Vercel: [Vercel Live Solution Website](https://qr-code-component-guilhermefigueira.vercel.app)
+- URL da solução no FrontendMentor: <a href="https://www.frontendmentor.io/solutions/responsive-results-summary-with-react-and-tailwindcss-wQYKkAb-9k" target="_blank">FrontEndMentor Solution URL</a>
+- Solução no Vercel: <a href="https://results-summary-guilhermefigueira.vercel.app" target="_blank">Vercel Live Solution Website</a>
 
 ## Processo
 
-### Built with
+### Feito com
 
-- Semantic HTML5 markup
-- CSS custom properties
+- Marcação semântica com HTML5
+- Propriedades customizadas com CSS
 - Flexbox
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
+- Fluxo de trabalho mobile-firts
+- [React](https://reactjs.org/) - Biblioteca Javascript
 - [Tailwind](https://tailwindcss.com) - CSS
 
 ## Autor
