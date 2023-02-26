@@ -29,28 +29,12 @@ function App() {
 						{TestResults.map((results) => {
 							const categoryLowerCase =
 								results.category.toLowerCase();
-							let color = "";
-							switch (results.category) {
-								case "Reaction":
-									color = "red";
-									break;
-								case "Memory":
-									color = "yellow";
-									break;
-								case "Verbal":
-									color = "green";
-									break;
-								case "Visual":
-									color = "blue-cobalt";
-									break;
-							}
 							return (
 								<Skill
 									key={results.category}
 									category={results.category}
 									icon={categoryLowerCase}
 									score={results.score}
-									color={color}
 								/>
 							);
 						})}

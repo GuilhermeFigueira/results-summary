@@ -5,3 +5,30 @@
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: subpixel-antialiased;
 }
+#reaction {
+	@apply bg-red bg-opacity-10;
+}
+#reaction h1 {
+	@apply text-red;
+}
+
+#memory {
+	@apply bg-yellow bg-opacity-10;
+}
+#memory h1 {
+	@apply text-yellow;
+}
+
+#verbal {
+	@apply bg-green bg-opacity-10;
+}
+#verbal h1 {
+	@apply text-green;
+}
+
+#visual {
+	@apply bg-blue-cobalt bg-opacity-10;
+}
+#visual h1 {
+	@apply text-blue-cobalt;
+}
