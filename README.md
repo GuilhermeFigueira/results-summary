@@ -8,7 +8,7 @@
 
 # Frontend Mentor - Results Summary
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Resulst Summary on Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -24,7 +24,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Screenshot
 
-![image](https://user-images.githubusercontent.com/95925774/221325415-e7482aea-2077-4b58-8224-68db682d0189.png)
+<img width="600"  src="https://user-images.githubusercontent.com/95925774/221421766-feef2dd6-5a34-44c3-8750-fae7e83aa357.png">
+<img width="100px"  src="https://user-images.githubusercontent.com/95925774/221421838-0e598229-5e50-4785-aabf-91f8650e4e1b.png">
+
+
 
 ### Links
 
